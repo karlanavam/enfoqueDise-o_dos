@@ -256,3 +256,17 @@ button {
     font-size: 1em;
     font-family: 'Quicksand', sans-serif;
 }
+
+/* MEDIA QUERY*/
+
+@media(max-width: 480px){
+    #seccionDos{
+        display: none;
+    }   
+}
+
+@media(max-width: 480px){
+    #seccionTres{
+        background-color: #FFEAF4;
+    }   
+}
