@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    width: 100&;
+    height: 50px;
+    background-color: black;
+}
+
+#menu #logoNav {
+    width: 74%;
+    display: flex;
+    flex-direction: row;
+}
+
+#logoGem{
+    font-size: 2em;
+    text-align: left;
+    padding-left: 5%;
+    color: white;
+    font-family: 'Rozha One', serif;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#menu nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 35%;
+    padding-right: 5%;
+}
+
+#menu nav a {
+    display: flex;
+    text-decoration: none;
+    padding-right: 5%;
+    padding-top: 5%;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: .8em;
+}
+
+a:hover {
+    background-color: white;
+    color: hotpink;
+}
+
+#seccionUno {
+    display: flex;
+}
+
+.macaHeaderImg {
+    position: absolute;
+    width: 12%;
+    margin-top: 19.5%;
+    margin-left: 15%;
+}
+
+.macaHeaderImg_Dos {
+    margin-top: 8%;
+    margin-left: 70%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 33em;
+    margin: 0;
+    padding-left: 18%;
+}
+
+#seccionDos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    width: 20%;
+    height: 40px;
+    margin: -2px;
+    padding-top: 1%;
+    background-color: black;
+    color: white;
+    font-family: 'Rozha One', serif;
+    font-weight: 100;
+}
+
+.containerImgP {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%; 
+}
+
+.containerP {
+    display: flex;
+    width: 40%;
+}
+
+.pSeccionDos {
+    width: 100%;
+    text-align: justify;
+}
+
+.containerImg{
+    display: flex;
+    flex-flow: row;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgSeccionDos {
+    display: flex;
+    width: 55%;
+}
+
+.imgSeccionDosA {
+    display: flex;
+    width: 40%;
+    padding: 6%;
+}
+
+
+
+#seccionTres {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#seccionCuatro {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+form {
+    padding-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    padding-bottom: 3%;
+}
+
+#seccionCinco {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
